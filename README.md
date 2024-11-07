@@ -12,3 +12,14 @@
 ## DONE
 Система управления студентами #8
 ## DONE
+
+Containers:
+
+server.py - created
+dockerfile - created
+docker-compose - created
+
+# step-by-step how to run:
+docker build -t python-app-server .
+docker-compose up -d python-app-server
+check state via command: docker ps -a

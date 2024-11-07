@@ -1,0 +1,7 @@
+services:
+  python-app-server:
+    image: python-app-server
+    container_name: python-app-server
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
