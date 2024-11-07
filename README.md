@@ -22,21 +22,21 @@ dockerfile - created
 docker-compose - created
 
 # step-by-step how to run:
-cd Containers/Container1
-docker build -t python-app-server .
-docker-compose up -d python-app-server
+1. cd Containers/Container1
+2. docker build -t python-app-server .
+3. docker-compose up -d python-app-server
 
-check state via command: docker ps -a
+#### check state via command: docker ps -a
 
 Containers 2:
 
-*index.js - created*
-*dockerfile - created*
-*docker-compose - created*
+1. index.js - created*
+2. dockerfile - created*
+3. docker-compose - created*
 
 # step-by-step how to run:
-*cd Containers/Container2*
-*docker build -t node-app-server .*
-*docker-compose up -d node-app-server*
+1. cd Containers/Container2
+2. docker build -t node-app-server .
+3. docker-compose up -d node-app-server
 
 ## DONE
