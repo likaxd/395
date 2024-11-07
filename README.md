@@ -15,11 +15,26 @@
 
 Containers:
 
+Containers 1:
+
 server.py - created
 dockerfile - created
 docker-compose - created
 
 # step-by-step how to run:
+cd Containers/Container1
 docker build -t python-app-server .
 docker-compose up -d python-app-server
+
 check state via command: docker ps -a
+
+Containers 2:
+
+index.js - created
+dockerfile - created
+docker-compose - created
+
+# step-by-step how to run:
+cd Containers/Container2
+docker build -t node-app-server .
+docker-compose up -d node-app-server
