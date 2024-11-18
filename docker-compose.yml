@@ -1,0 +1,13 @@
+services:
+  webserver-1:
+    image: nginx
+    container_name: webserver-1
+    restart: unless-stopped
+    ports:
+      - 8080:80
+  webserver-2:
+    image: nginx
+    container_name: webserver-2
+    restart: unless-stopped
+    ports:
+      - 8081:80
