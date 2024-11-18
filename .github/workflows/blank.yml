@@ -26,7 +26,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: running docker-compose
-        run: docker-compose build -t ghcr.io/likaxd/395/nginx ./nginx/
+        run: docker compose build -t ghcr.io/likaxd/395/nginx ./nginx/
 
       # Runs a set of commands using the runners shell
       # - name: Run a multi-line script
