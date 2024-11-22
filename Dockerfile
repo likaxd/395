@@ -1,6 +1,6 @@
 FROM node:alpine
 
-WORDIR /app
+WORKDIR /app
 
 COPY ./index.js /app/index.js
 
