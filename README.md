@@ -1,16 +1,6 @@
 # 395-to-be-forked
 
-Управлением задачами #1
-## DONE
-Скрипт автоматизации #2
-## DONE
-Учебная часть #4
-## DONE
-БД Пользователя #6
-## DONE
-Уведомления Telegram #7
-## DONE
-Система управления студентами #8
+Управлением задачами #1, Скрипт автоматизации #2, Учебная часть #4, БД Пользователя #6, Уведомления Telegram #7, Система управления студентами #8 
 ## DONE
 
 ### Containers:
@@ -40,3 +30,8 @@ Containers 2:
 3. docker-compose up -d node-app-server
 
 ## DONE
+
+Containers With Actions (CI/CD)
+
+1. Just push somth
+2. ## DONE
